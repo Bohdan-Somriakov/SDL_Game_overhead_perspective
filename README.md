@@ -20,16 +20,17 @@ https://www.youtube.com/watch?v=DgpcRIK2uug
 ### Linux (Debian/Ubuntu)
 
 You can install the required dependencies on Debian/Ubuntu using `apt`:
-
-```bash
+\`\`\`bash
 sudo apt-get install libsdl2-dev libsdl2-ttf-dev libsdl2-image-dev
 To install optional dependencies, use:
 sudo apt-get install libsdl2-mixer-dev
 
-Windows
+## Windows
+
 For Windows, download the precompiled libraries from the official SDL2 website and follow the installation instructions.
 
-macOS
+## macOS
+
 You can use Homebrew to install the required libraries:
 brew install sdl2 sdl2_ttf sdl2_image
 For optional dependencies, use:
